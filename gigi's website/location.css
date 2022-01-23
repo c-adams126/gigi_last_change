@@ -1,0 +1,13 @@
+.lo {
+    font-size: 100px;
+    text-align: center;
+}
+
+.locations{
+    display: flex;
+}
+
+hr {
+    width: 50%;
+    margin-left: 50%;
+}
