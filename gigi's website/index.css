@@ -72,6 +72,8 @@ header {
 .ownerWords {
     text-align: center;
     word-wrap: break-word;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .mh {
@@ -86,6 +88,7 @@ header {
     max-height: 100%;
     margin: auto;
     flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 
 .themap {
@@ -135,6 +138,8 @@ footer {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 100px;
     
 }
 
@@ -167,3 +172,23 @@ footer {
     height: 300px;
     border-radius: 20%;
 }
+
+.Ct {
+    font-size: 20px;
+}
+
+.but button{
+    font-size: 20px;
+    border-radius: 20%;
+    color: rgb(108, 235, 129);
+    background-color: rgb(27, 117, 87);
+    opacity: .5;
+}
+
+.but button:hover {
+    color: white;
+    background-color: rgb(3, 116, 59);
+    transition: 1s;
+    
+}
+

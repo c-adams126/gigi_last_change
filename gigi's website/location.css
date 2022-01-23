@@ -9,6 +9,7 @@
     display: flex;
     text-align: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 hr {
@@ -17,5 +18,10 @@ hr {
     margin-left: 25%;
 }
 
+.riverview {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
 
 
