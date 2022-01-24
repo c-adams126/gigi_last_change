@@ -20,8 +20,92 @@ hr {
 
 .riverview {
     text-align: center;
+}
+
+.riverview img {
+    width: 700px;
+    height: 700px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.rivermap {
     display: flex;
     flex-direction: column;
 }
 
 
+.riveriewinfo{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.slider {
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin-left: 35%;
+    max-width: 100%;
+    
+}
+
+.slider figure {
+    position: relative;
+    width: 1000%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+.slider figure img {
+    width: 10%;
+    float: left;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    80% {
+        left: -300%;
+    }
+    90% {
+        left: -300%;
+    }
+}
+
+.SunCity {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.sunen img {
+    width: 500px;
+    height: 500px;
+}
+
+.suncityinfo {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
