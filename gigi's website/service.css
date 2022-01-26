@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Outfit:wght@200&family=Playfair+Display:wght@600&family=Poppins:wght@600&family=Roboto:wght@300&display=swap');
+
+.servicepiclogo {
+    text-align: center;
+}
+
+.servicepiclogo img {
+    margin-top: 20px;
+    max-width: 100%;
+    
+    
+}
+
+.fade-in {
+    animation: fadeIn ease 10s;
+    -webkit-animation: fadeIn ease 10s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIn ease 10s;
+    -ms-animation: fadeIn ease 10s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+
+  .Gigi {
+    text-align: center;
+  }
+
+  .Gigi h1 {
+    margin-top: 60px;
+    font-size: 5em;
+    margin-bottom: 10px;
+    font-family: 'Outfit', sans-serif;
+  }
+
+  .ghr {
+    width: 50%;
+    margin-left: 24%;
+  }
+
+  .gg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+  }
+
+  .gg div {
+    margin-top: 15px;
+  }
+
+  .headinfo {
+    font-size: 2em;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+
+  .headprice {
+    font-size: 1em;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 900;
+
+  }
+
+  .headdes {
+    font-family: 'Outfit', sans-serif;
+    word-wrap: normal;
+    margin-top: 10px;
+    font-weight: 300;
+  }
+
+  .massages {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .massages h1 {
+    margin-top: 60px;
+    font-size: 5em;
+    margin-bottom: 10px;
+    font-family: 'Outfit', sans-serif;
+  }
+
+  .ms {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  
+  
+  

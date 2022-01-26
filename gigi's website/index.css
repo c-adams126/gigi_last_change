@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Playfair+Display:wght@600&family=Poppins:wght@600&family=Roboto:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Outfit:wght@200&family=Playfair+Display:wght@600&family=Poppins:wght@600&family=Roboto:wght@300&display=swap');
 * {
     padding: 0;
     margin: 0;
+    max-width: 100%;
+    
 }
 
 
 header {
     text-align: center;
     background: linear-gradient(rgb(3, 116, 59), rgb(27, 117, 87));
+    max-width: 100%;
 }
 
 .logo_gigi {
@@ -35,6 +39,7 @@ header {
     font-size: large;
     color: white;
     font-weight: 600;
+    font-family: 'Outfit', sans-serif;
     
 }
 
@@ -57,6 +62,8 @@ header {
     text-align: center;
     margin-top: 20px;
     font-size: 40px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
 }
 
 .owner {
@@ -67,6 +74,9 @@ header {
     width: 300px;
     height: 300px;
     border-radius: 50%;
+    border-color: rgb(3, 116, 59);
+    border-style: solid;
+    filter: drop-shadow(15px 0px 4px rgb(71, 68, 68));
 }
 
 .ownerWords {
@@ -74,6 +84,8 @@ header {
     word-wrap: break-word;
     margin-bottom: 30px;
     margin-top: 20px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
 }
 
 .mh {
@@ -175,6 +187,9 @@ footer {
 
 .Ct {
     font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+    margin-bottom: 10px;
+    font-weight: 600;
 }
 
 .but button{
